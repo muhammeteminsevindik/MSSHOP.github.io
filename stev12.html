@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MSSHOP</title>
+    <link rel="stylesheet" href="anasayfa.css" />
+    <link rel="icon" href="LOGO.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="ortala">
+        <div class="logo">
+          <img
+            src="LOGO.png"
+            alt=""
+            srcset=""
+            style="width: 170px; height: 140px; margin-top: 3px"
+          />
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="sayfa4.html">Hakkımızda</a></li>
+            <li><a href="sayfa1.html">Elektronik</a></li>
+            <li><a href="sayfa2.html">Ev/Yaşam</a></li>
+            <li><a href="sayfa3.html">Giyim/Ayakabı</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="sol-taraf">
+        <img
+          src="sayfa2 resimler/tahtasehpa.png"
+          alt="Resim"
+          style="max-width: 100%; height: 600px"
+        />
+      </div>
+      <div class="sag-taraf">
+        <h1>OBİ ATOLYE</h1>
+        <ul>
+          <li>Mantar 3 Lü Zigon Sehpa - Safir Meşe</li>
+          <li>1.000TL</li>
+          <li><button onclick="showAlert()">Satın Al</button></li>
+          <!-- İstediğiniz kadar özellik ekleyebilirsiniz -->
+        </ul>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="foot1">
+        <div class="footer-column">
+          <h3>Kategoriler</h3>
+          <ul>
+            <li><a href="#">Elektronik</a></li>
+            <li><a href="#">Ev/Mobilya</a></li>
+            <li><a href="#">Giyim/Ayakabı</a></li>
+            <li><a href="#">Sıkça Sorulan Sorular</a></li>
+          </ul>
+        </div>
+      </div>
+      <!---foot1--->
+
+      <div class="foot1">
+        <div class="footer-column">
+          <h3>Hakkımızda</h3>
+          <ul>
+            <li><a href="#">Trendyol Hakkında</a></li>
+            <li><a href="#">Kariyer</a></li>
+            <li><a href="#">Kurumsal</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <!---foot1--->
+
+      <div class="foot1">
+        <div class="footer-column">
+          <h3>Sosyal Medya</h3>
+          <ul>
+            <li><a href="#">İnstagram</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <!---foot1--->
+      <div class="foot1">
+        <div class="footer-column">
+          <h3>Kurumsal</h3>
+          <ul>
+            <li><a href="#">İletisim</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Refersanslar</a></li>
+            <li><a href="#">Gizlilik Politikası </a></li>
+          </ul>
+        </div>
+      </div>
+      <!---foot1--->
+    </footer>
+  </body>
+</html>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .sol-taraf {
+    flex: 1;
+    margin-right: 20px;
+    margin-right: 50px;
+  }
+
+  .sol-taraf img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .sag-taraf {
+    flex: 1;
+  }
+
+  .sag-taraf h1 {
+    font-size: 24px;
+  }
+
+  .sag-taraf ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sag-taraf ul li {
+    margin-bottom: 10px;
+  }
+</style>
+<script>
+  function showAlert() {
+    alert('Ürününüz Satın alındı!');
+  }
+</script>
